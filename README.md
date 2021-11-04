@@ -1,6 +1,7 @@
 # e-sport-simple-web
 
 theres a simple Dota 2 e-sport game page.
+Deployed at  https://jeancolonia.github.io/e-sport-simple-web/
 
                                                                    PREVIEW 
                                                                  
