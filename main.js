@@ -1,10 +1,18 @@
 
-
 const modal=document.getElementById("modal-container");
 const close=document.getElementById("close-icon");
 
 const btn=document.querySelector("#button_id");
 const btn2=document.querySelector("#playfree2");
+
+
+$( document ).ready(function() {
+    var video = document.getElementById('video');
+    video.autoplay = true;
+    video.load();
+});
+
+
 
 btn.onclick=()=>{
     openModal();
@@ -30,3 +38,6 @@ window.onclick= function(e){
 close.onclick=()=>{
     closeModal();
 }
+
+
+

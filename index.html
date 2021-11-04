@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Dota 2</title>
+    <link rel="icon" href="./assets/dota2.png">
     <link rel="stylesheet" href="./styles/main.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -36,14 +37,14 @@
       <nav>
         <a href="" class="ancla">HEROES</a>
         <a href="" class="ancla">NEWS</a>
-        <a class="dota2logo" href="/index.html ">
+        <a class="dota2logo" href="">
           <img src="./assets/dota2.png" alt=""
         /></a>
         <a href="" class="ancla">ABOUT</a>
         <a href="" class="ancla">Sign up</a>
       </nav>
       <div class="video">
-        <video loop autobuffer autoplay preload>
+        <video playsinline autoplay muted loop id="video">
           <source src="./assets/videos/dota_montage_02.mp4" type="video/mp4" />
         </video>
         <div class="shadow"></div>
@@ -258,6 +259,7 @@
         </div>
       </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="main.js"></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
